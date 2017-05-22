@@ -36,8 +36,8 @@ ul{
     z-index: 1;
 }
 .logo{
-   font-family: 'Exo 2', sans-serif;
-/*   font-family: 'Argon','Exo 2', sans-serif;*/
+   /*font-family: 'Exo 2', sans-serif;*/
+   font-family: 'Argon','Exo 2', sans-serif;
    
     cursor: pointer;
 }
@@ -50,9 +50,9 @@ ul{
 /*    text-shadow: 1px 1px 0 #767471;*/
     letter-spacing: .84px;
 /*    -webkit-text-stroke: 1px #E3E3E3;*/
-     font-family: 'Exo 2', sans-serif;
-      /*font-family: 'Argon','Exo 2', sans-serif;*/
-     font-weight: 600;
+     /*font-family: 'Exo 2', sans-serif;*/
+      font-family: 'Argon','Exo 2', sans-serif;
+     font-weight: 300;
 /*
      font-family: 'Handlee', cursive;
      font-family: 'Bungee Inline', cursive;
