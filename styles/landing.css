@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'Argon';
+  src: url('../fonts/Argon.otf') format('opentype');
+}
 body{
     height: auto;
     min-height: 100% !important;
@@ -13,7 +17,10 @@ li{
     list-style-type: none;
     padding-bottom: 5px;
     font-size: 1.5em;
-    text-transform: uppercase;
+    
+}
+li p{
+    font-weight: 300;
 }
 li a{
     
@@ -21,13 +28,17 @@ li a{
 ul{
     padding-left: 0;
 }
-
+.footer a, .footer a:hover{
+    color: #253149;
+}
 .container-fluid.background{
     background-color: #ffffff;
     z-index: 1;
 }
 .logo{
    font-family: 'Exo 2', sans-serif;
+/*   font-family: 'Argon','Exo 2', sans-serif;*/
+   
     cursor: pointer;
 }
 .logo-container{
@@ -40,6 +51,7 @@ ul{
     letter-spacing: .84px;
 /*    -webkit-text-stroke: 1px #E3E3E3;*/
      font-family: 'Exo 2', sans-serif;
+      /*font-family: 'Argon','Exo 2', sans-serif;*/
      font-weight: 600;
 /*
      font-family: 'Handlee', cursive;
@@ -88,6 +100,7 @@ text-shadow: 1px 1px 0 #767471;
     text-transform: uppercase;
     letter-spacing: 2.66px;
     font-weight: 400;
+    padding-bottom: 2%;
 }
 .case-study{
 /*
@@ -127,6 +140,7 @@ text-shadow: 1px 1px 0 #767471;
 .case-study.tone-control{
     height: 100%;
     margin-bottom: 20%;
+    padding-left: 10%;
 }
 .case-study.tone-control img{
     height: auto;
@@ -165,10 +179,18 @@ text-shadow: 1px 1px 0 #767471;
     margin: auto;
 }
 .upcoming-gigs{
-    width: 100%;
+    width: 50%;
     margin: auto;
     text-align: left;
     padding-top: 2%;
+}
+.follow-us{
+    float: right;
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    padding-top: 2%;
+    padding-left: 10%;
 }
 .tone-control img{
     border-color: #FFE8D1 !important;
@@ -182,6 +204,9 @@ text-shadow: 1px 1px 0 #767471;
     letter-spacing: 1.37px;
     line-height: 1.5;
     font-size: 1.5em;
+}
+.footer .intro-text{
+    padding-bottom: 5%;
 }
 .case-study .button, .intro-text .lets-chat{
     background-color: #253149;
@@ -259,6 +284,20 @@ text-shadow: 1px 1px 0 #767471;
   bottom: auto;
   top: 0;
   width: 80%;
+}
+.social-links{
+    float: right;
+    width: 200px;
+    padding-top: 4%;
+}
+.social-links i{
+    padding-right: 10%;
+    font-size: 2.8em;
+    padding-left: 10%;
+}
+.social-links a{
+    color: #253149;
+    cursor: pointer;
 }
 /* END BUTTON EFFECTS */
 
