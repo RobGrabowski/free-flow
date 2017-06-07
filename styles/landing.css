@@ -22,13 +22,14 @@ li{
 li p{
     font-weight: 300;
 }
-li a{
-    
+li a, li a:hover{
+    color: #2DC5D6;
+    text-decoration: none;
 }
 ul{
     padding-left: 0;
 }
-.footer a, .footer a:hover{
+.footer a, .footer a:hover, upcoming-gigs li p a, upcoming-gigs li p a:hover{
     color: #253149;
 }
 .container-fluid.background{
@@ -117,7 +118,7 @@ text-shadow: 1px 1px 0 #767471;
     padding-top: 5%;
     margin: auto;
     margin-top: 20px;
-    margin-bottom: 40%;
+    margin-bottom: 10%;
     height: 100%;
     
 }
