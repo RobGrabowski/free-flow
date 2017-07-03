@@ -83,9 +83,9 @@
                   <div class="newsletter"><a href=""><div class="button">Newsletter?</div></a>
                   </div>
                   <div class="social-links">
-                     <a href="/newsletter.html" target="_blank" title="Newsletter Signup"><i class="fa fa-envelope-o fa-lg"></i></a>
+                    <a href="/newsletter.html" target="_blank" title="Newsletter Signup"><i class="fa fa-envelope-o fa-lg"></i></a>
                     <a href="https://www.facebook.com/freeflowfunk/" target="_blank" title="Free Flow on Facebook"><i class="fa fa-facebook-official fa-lg"></i></a>
-                    <a href="https://soundcloud.com/freeflowfunk" target="_blank" title="Free Flow on Soundcloud.  Click and Listen!"><i class="fa fa-soundcloud fa-lg"></i></a>
+                    <a href="https://soundcloud.com/freeflowfunk" target="_blank" title="Listen to Free Flow on Soundcloud"><i class="fa fa-soundcloud fa-lg"></i></a>
                   </div>
                  <!--  <nav class="navbar">
                   <div class="responsive-menu-1">
@@ -101,8 +101,16 @@
               </div>
             </div>
               <div class = "col-sm-12 col-md-10 col-lg-10 col-md-offset-1 fixed-nav">
-                  <div class="intro-text">
-                      The moment when the concerns of the past and future drift away leaving nothing but the present. A peaceful and intense calm emerging. Time slows to a stop. Energy focuses on the tightening groove. The mind is laser focused on the rhythm. You begin to explore. This is Free Flow.
+                  <div class="intro-text newsletter-text">
+                  <p>Thank you for signing up for our Newsletter/Gig updates!</p>
+                      <script type="text/javascript">   
+                      function Redirect() 
+                      {  
+                      window.location="http://www.freeflowfunk.com"; 
+                      } 
+                      document.write("You will be redirected to our home page in 5 seconds"); 
+                      setTimeout('Redirect()', 5000);   
+                      </script>
                    </div>
                   
            
@@ -124,45 +132,13 @@
            
               <div class = "col-sm-12 col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1">
                   
-                   <div class="case-study free-flow-background">
-                      
-                  
-                      <img id="" src="assets/background-image2.png" alt="Free Flow Image" />         
-                    </div>  
-                  
-                   <div class="case-study tone-control">
-                    <div class="tone-control-text-wrapper upcoming-gigs">
-                          <h2>Upcoming gigs</h2>
-                          <ul>
-                            <li><span class="date">8/5/2017</span> <p>Sails American Grill 9pm-12pm</p></li>
-                            <li><span class="date">9/8/2017</span><p> Darien Summer Nights - Opening for <a href="https://www.facebook.com/thespadtastics/" target="_blank">The Spadastics</a> - Darien, CT</p></li>    
-                            <li><span class="date">9/23/2017</span> <p>Sails American Grill 9pm-12pm</p></li>
-                          </ul>
-                         
-                      </div>   
-                      
-                      <div class="tone-control-text-wrapper follow-us">
-                        <!--<h2>Follow</h2>
-                         <ul>
-                          <li><p>Follow us on <a href="https://www.facebook.com/freeflowfunk/" target="_blank">Facebook</a></p></li>
-                          <li>
-                        </ul> -->
-                          <h2>Listen</h2>
-                          <p><iframe width="100%" height="350" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/202542788&amp;color=253149&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe></p>
-                         <!--  <li> <p>Watch us on Youtube</p></li> -->
-                        
-                        
-                        
-                       
-                      </div>    
-
-                    </div>
+                   
                   
  
                   
                   <div class="footer">
                       <div class="intro-text">
-                           Contact us at <a href="mailto:freeflowjams@gmail.com" class="navbar-link">freeflowjams@gmail.com</a> for bookings or anything else!
+                           Email us at <a href="mailto:freeflowjams@gmail.com" class="navbar-link">freeflowjams@gmail.com</a>. <br /> We'd love to hear from you!
                        </div>
 
   <!--                   <nav class="navbar">
@@ -214,6 +190,9 @@
                      
                      $( '.bars-2' ).click(function(){
                      $('.responsive-menu-2').slideToggle(600);
+                     })
+                     $( '.logo' ).click(function(){
+                        window.location.href = "http://freeflowfunk.com";
                      })
                      $(document).ready(function() {
                         // run test on initial page load
